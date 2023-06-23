@@ -1,5 +1,4 @@
 from pages.check_box_page import CheckBoxPage
-
 def test_check_box(driver):
     """Проверка флажков"""
 

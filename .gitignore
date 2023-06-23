@@ -1,0 +1,5 @@
+/venv
+/allure-results
+/.pytest_cache
+/.idea
+/geckodriver.log

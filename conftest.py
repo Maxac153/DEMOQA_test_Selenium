@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def driver():
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--no-sandbox")
